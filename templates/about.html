@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>About us</title>
-  </head>
-  <body>
+{% extends "layout.html" %}
+
+{% block heading %}
+About us
+{% endblock %}
+
+{% block body %}
     <h1>About us</h1>
-    <p>Nur infotech test page</p>
+    <p>Nur infotech about us page test</p>
     <a href="{{ url_for ('index')}}">back to homepage</a>
-  </body>
-</html>
+{% endblock %}
